@@ -1,60 +1,34 @@
 // See http://iphonedevwiki.net/index.php/Logos
 
 #import <UIKit/UIKit.h>
+#import "Header.h"
+#include <substrate.h>
+#import "dlfcn.h"
+#import <AVFoundation/AVFoundation.h>
 
-@interface CustomViewController
+%hook AMapLocationManager
 
-@property (nonatomic, copy) NSString* newProperty;
-
-+ (void)classMethod;
-
-- (NSString*)getMyName;
-
-- (void)newMethod:(NSString*) output;
-
-@end
-
-%hook CustomViewController
-
-+ (void)classMethod
-{
-	%log;
-
-	%orig;
+- (_Bool )detectRiskOfFakeLocation {
+%log;
+_Bool  r = %orig;
+HBLogDebug(@" = %d", r);
+return r;
 }
+%end
 
-%new
--(void)newMethod:(NSString*) output{
-    NSLog(@"This is a new method : %@", output);
+%hook DTInfoPlist
++ (id)getAppBundleId{
+return @"com.laiwang.DingTalk";
 }
+%end
 
-%new
-- (id)newProperty {
-    return objc_getAssociatedObject(self, @selector(newProperty));
+#define jf_photoDirectory [NSTemporaryDirectory() stringByAppendingPathComponent:@"jf/photo"]
+#define jf_photoName @"jf_photo.png"
+#define jf_photoPath [NSString stringWithFormat:@"%@/%@", jf_photoDirectory, jf_photoName]
+
+%hook AVCaptureStillImageOutput
++ (NSData *)jpegStillImageNSDataRepresentation:(CMSampleBufferRef)jpegSampleBuffer{
+NSData *data = [[NSData alloc] initWithContentsOfFile:jf_photoPath];
+return data ? data : %orig;
 }
-
-%new
-- (void)setNewProperty:(id)value {
-    objc_setAssociatedObject(self, @selector(newProperty), value, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-}
-
-- (NSString*)getMyName
-{
-	%log;
-    
-    NSString* password = MSHookIvar<NSString*>(self,"_password");
-    
-    NSLog(@"password:%@", password);
-    
-    [%c(CustomViewController) classMethod];
-    
-    [self newMethod:@"output"];
-    
-    self.newProperty = @"newProperty";
-    
-    NSLog(@"newProperty : %@", self.newProperty);
-
-	return %orig();
-}
-
 %end

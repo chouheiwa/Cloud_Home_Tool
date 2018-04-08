@@ -24,6 +24,51 @@
 		78D91903207A5424006A4DC5 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D91902207A5424006A4DC5 /* fishhook.h */; };
 		78D91905207A5424006A4DC5 /* Cloud_HomeDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D91904207A5424006A4DC5 /* Cloud_HomeDylib.h */; };
 		78D91907207A5424006A4DC5 /* Cloud_HomeDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D91906207A5424006A4DC5 /* Cloud_HomeDylib.m */; };
+		78D9194F207A5844006A4DC5 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D91910207A5843006A4DC5 /* Header.h */; };
+		78D91950207A5844006A4DC5 /* DTWIFIHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D91913207A5844006A4DC5 /* DTWIFIHook.h */; };
+		78D91951207A5844006A4DC5 /* DTWifiSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D91915207A5844006A4DC5 /* DTWifiSettingViewController.m */; };
+		78D91952207A5844006A4DC5 /* DTWifiSettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D91916207A5844006A4DC5 /* DTWifiSettingViewController.h */; };
+		78D91953207A5844006A4DC5 /* DTWifiSettingSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D91918207A5844006A4DC5 /* DTWifiSettingSession.h */; };
+		78D91954207A5844006A4DC5 /* DTWifiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D91919207A5844006A4DC5 /* DTWifiModel.m */; };
+		78D91955207A5844006A4DC5 /* DTWifiSettingSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D9191A207A5844006A4DC5 /* DTWifiSettingSession.m */; };
+		78D91956207A5844006A4DC5 /* DTWifiModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D9191B207A5844006A4DC5 /* DTWifiModel.h */; };
+		78D91957207A5844006A4DC5 /* DTWIFIHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D9191C207A5844006A4DC5 /* DTWIFIHook.m */; };
+		78D91958207A5844006A4DC5 /* DTGPSSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D9191F207A5844006A4DC5 /* DTGPSSettingViewController.m */; };
+		78D91959207A5844006A4DC5 /* DTGPSSettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D91920207A5844006A4DC5 /* DTGPSSettingViewController.h */; };
+		78D9195A207A5844006A4DC5 /* DTCameraHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D91922207A5844006A4DC5 /* DTCameraHook.m */; };
+		78D9195B207A5844006A4DC5 /* DTCameraSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D91924207A5844006A4DC5 /* DTCameraSettingViewController.m */; };
+		78D9195C207A5844006A4DC5 /* DTCameraSettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D91925207A5844006A4DC5 /* DTCameraSettingViewController.h */; };
+		78D9195D207A5844006A4DC5 /* DTCameraHook.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D91926207A5844006A4DC5 /* DTCameraHook.h */; };
+		78D9195E207A5844006A4DC5 /* DTGPSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D91929207A5844006A4DC5 /* DTGPSButton.m */; };
+		78D9195F207A5844006A4DC5 /* DTGPSButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D9192A207A5844006A4DC5 /* DTGPSButton.h */; };
+		78D91960207A5844006A4DC5 /* DTWifiHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D9192C207A5844006A4DC5 /* DTWifiHeaderView.h */; };
+		78D91961207A5844006A4DC5 /* DTWifiHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D9192D207A5844006A4DC5 /* DTWifiHeaderView.m */; };
+		78D91962207A5844006A4DC5 /* UIImage+JFUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D9192F207A5844006A4DC5 /* UIImage+JFUtil.m */; };
+		78D91963207A5844006A4DC5 /* JF_Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D91930207A5844006A4DC5 /* JF_Helper.h */; };
+		78D91964207A5844006A4DC5 /* ALAsset+JFUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D91931207A5844006A4DC5 /* ALAsset+JFUtil.h */; };
+		78D91965207A5844006A4DC5 /* QBImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D91934207A5844006A4DC5 /* QBImagePickerController.h */; };
+		78D91966207A5844006A4DC5 /* QBImagePickerGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D91935207A5844006A4DC5 /* QBImagePickerGroupCell.m */; };
+		78D91967207A5844006A4DC5 /* QBImagePickerThumbnailView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D91936207A5844006A4DC5 /* QBImagePickerThumbnailView.h */; };
+		78D91968207A5844006A4DC5 /* QBAssetsCollectionCheckmarkView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D91937207A5844006A4DC5 /* QBAssetsCollectionCheckmarkView.h */; };
+		78D91969207A5844006A4DC5 /* QBAssetsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D91938207A5844006A4DC5 /* QBAssetsCollectionViewCell.m */; };
+		78D9196A207A5844006A4DC5 /* QBAssetsCollectionOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D91939207A5844006A4DC5 /* QBAssetsCollectionOverlayView.h */; };
+		78D9196B207A5844006A4DC5 /* QBAssetsCollectionFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D9193A207A5844006A4DC5 /* QBAssetsCollectionFooterView.m */; };
+		78D9196C207A5844006A4DC5 /* QBAssetsCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D9193B207A5844006A4DC5 /* QBAssetsCollectionViewLayout.h */; };
+		78D9196D207A5844006A4DC5 /* QBAssetsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D9193C207A5844006A4DC5 /* QBAssetsCollectionViewController.m */; };
+		78D9196E207A5844006A4DC5 /* QBAssetsCollectionVideoIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D9193D207A5844006A4DC5 /* QBAssetsCollectionVideoIndicatorView.m */; };
+		78D9196F207A5844006A4DC5 /* QBImagePickerGroupCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D9193E207A5844006A4DC5 /* QBImagePickerGroupCell.h */; };
+		78D91970207A5844006A4DC5 /* QBImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D9193F207A5844006A4DC5 /* QBImagePickerController.m */; };
+		78D91971207A5844006A4DC5 /* QBAssetsCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D91940207A5844006A4DC5 /* QBAssetsCollectionViewCell.h */; };
+		78D91972207A5844006A4DC5 /* QBAssetsCollectionCheckmarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D91941207A5844006A4DC5 /* QBAssetsCollectionCheckmarkView.m */; };
+		78D91973207A5844006A4DC5 /* QBImagePickerThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D91942207A5844006A4DC5 /* QBImagePickerThumbnailView.m */; };
+		78D91974207A5845006A4DC5 /* QBAssetsCollectionFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D91943207A5844006A4DC5 /* QBAssetsCollectionFooterView.h */; };
+		78D91975207A5845006A4DC5 /* QBAssetsCollectionOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D91944207A5844006A4DC5 /* QBAssetsCollectionOverlayView.m */; };
+		78D91976207A5845006A4DC5 /* QBAssetsCollectionVideoIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D91945207A5844006A4DC5 /* QBAssetsCollectionVideoIndicatorView.h */; };
+		78D91977207A5845006A4DC5 /* QBAssetsCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D91946207A5844006A4DC5 /* QBAssetsCollectionViewLayout.m */; };
+		78D91978207A5845006A4DC5 /* QBAssetsCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D91947207A5844006A4DC5 /* QBAssetsCollectionViewController.h */; };
+		78D91979207A5845006A4DC5 /* UIImage+JFUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D9194C207A5844006A4DC5 /* UIImage+JFUtil.h */; };
+		78D9197A207A5845006A4DC5 /* JF_Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D9194D207A5844006A4DC5 /* JF_Helper.m */; };
+		78D9197B207A5845006A4DC5 /* ALAsset+JFUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D9194E207A5844006A4DC5 /* ALAsset+JFUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +120,53 @@
 		78D91902207A5424006A4DC5 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
 		78D91904207A5424006A4DC5 /* Cloud_HomeDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cloud_HomeDylib.h; sourceTree = "<group>"; };
 		78D91906207A5424006A4DC5 /* Cloud_HomeDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cloud_HomeDylib.m; sourceTree = "<group>"; };
+		78D91910207A5843006A4DC5 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		78D91913207A5844006A4DC5 /* DTWIFIHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTWIFIHook.h; sourceTree = "<group>"; };
+		78D91915207A5844006A4DC5 /* DTWifiSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTWifiSettingViewController.m; sourceTree = "<group>"; };
+		78D91916207A5844006A4DC5 /* DTWifiSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTWifiSettingViewController.h; sourceTree = "<group>"; };
+		78D91918207A5844006A4DC5 /* DTWifiSettingSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTWifiSettingSession.h; sourceTree = "<group>"; };
+		78D91919207A5844006A4DC5 /* DTWifiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTWifiModel.m; sourceTree = "<group>"; };
+		78D9191A207A5844006A4DC5 /* DTWifiSettingSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTWifiSettingSession.m; sourceTree = "<group>"; };
+		78D9191B207A5844006A4DC5 /* DTWifiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTWifiModel.h; sourceTree = "<group>"; };
+		78D9191C207A5844006A4DC5 /* DTWIFIHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTWIFIHook.m; sourceTree = "<group>"; };
+		78D9191F207A5844006A4DC5 /* DTGPSSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTGPSSettingViewController.m; sourceTree = "<group>"; };
+		78D91920207A5844006A4DC5 /* DTGPSSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTGPSSettingViewController.h; sourceTree = "<group>"; };
+		78D91922207A5844006A4DC5 /* DTCameraHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTCameraHook.m; sourceTree = "<group>"; };
+		78D91924207A5844006A4DC5 /* DTCameraSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTCameraSettingViewController.m; sourceTree = "<group>"; };
+		78D91925207A5844006A4DC5 /* DTCameraSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTCameraSettingViewController.h; sourceTree = "<group>"; };
+		78D91926207A5844006A4DC5 /* DTCameraHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTCameraHook.h; sourceTree = "<group>"; };
+		78D91929207A5844006A4DC5 /* DTGPSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTGPSButton.m; sourceTree = "<group>"; };
+		78D9192A207A5844006A4DC5 /* DTGPSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTGPSButton.h; sourceTree = "<group>"; };
+		78D9192C207A5844006A4DC5 /* DTWifiHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTWifiHeaderView.h; sourceTree = "<group>"; };
+		78D9192D207A5844006A4DC5 /* DTWifiHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTWifiHeaderView.m; sourceTree = "<group>"; };
+		78D9192F207A5844006A4DC5 /* UIImage+JFUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JFUtil.m"; sourceTree = "<group>"; };
+		78D91930207A5844006A4DC5 /* JF_Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JF_Helper.h; sourceTree = "<group>"; };
+		78D91931207A5844006A4DC5 /* ALAsset+JFUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAsset+JFUtil.h"; sourceTree = "<group>"; };
+		78D91934207A5844006A4DC5 /* QBImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBImagePickerController.h; sourceTree = "<group>"; };
+		78D91935207A5844006A4DC5 /* QBImagePickerGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBImagePickerGroupCell.m; sourceTree = "<group>"; };
+		78D91936207A5844006A4DC5 /* QBImagePickerThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBImagePickerThumbnailView.h; sourceTree = "<group>"; };
+		78D91937207A5844006A4DC5 /* QBAssetsCollectionCheckmarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsCollectionCheckmarkView.h; sourceTree = "<group>"; };
+		78D91938207A5844006A4DC5 /* QBAssetsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsCollectionViewCell.m; sourceTree = "<group>"; };
+		78D91939207A5844006A4DC5 /* QBAssetsCollectionOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsCollectionOverlayView.h; sourceTree = "<group>"; };
+		78D9193A207A5844006A4DC5 /* QBAssetsCollectionFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsCollectionFooterView.m; sourceTree = "<group>"; };
+		78D9193B207A5844006A4DC5 /* QBAssetsCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsCollectionViewLayout.h; sourceTree = "<group>"; };
+		78D9193C207A5844006A4DC5 /* QBAssetsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsCollectionViewController.m; sourceTree = "<group>"; };
+		78D9193D207A5844006A4DC5 /* QBAssetsCollectionVideoIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsCollectionVideoIndicatorView.m; sourceTree = "<group>"; };
+		78D9193E207A5844006A4DC5 /* QBImagePickerGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBImagePickerGroupCell.h; sourceTree = "<group>"; };
+		78D9193F207A5844006A4DC5 /* QBImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBImagePickerController.m; sourceTree = "<group>"; };
+		78D91940207A5844006A4DC5 /* QBAssetsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsCollectionViewCell.h; sourceTree = "<group>"; };
+		78D91941207A5844006A4DC5 /* QBAssetsCollectionCheckmarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsCollectionCheckmarkView.m; sourceTree = "<group>"; };
+		78D91942207A5844006A4DC5 /* QBImagePickerThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBImagePickerThumbnailView.m; sourceTree = "<group>"; };
+		78D91943207A5844006A4DC5 /* QBAssetsCollectionFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsCollectionFooterView.h; sourceTree = "<group>"; };
+		78D91944207A5844006A4DC5 /* QBAssetsCollectionOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsCollectionOverlayView.m; sourceTree = "<group>"; };
+		78D91945207A5844006A4DC5 /* QBAssetsCollectionVideoIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsCollectionVideoIndicatorView.h; sourceTree = "<group>"; };
+		78D91946207A5844006A4DC5 /* QBAssetsCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBAssetsCollectionViewLayout.m; sourceTree = "<group>"; };
+		78D91947207A5844006A4DC5 /* QBAssetsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBAssetsCollectionViewController.h; sourceTree = "<group>"; };
+		78D9194A207A5844006A4DC5 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/QBImagePickerController.strings; sourceTree = "<group>"; };
+		78D9194B207A5844006A4DC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/QBImagePickerController.strings; sourceTree = "<group>"; };
+		78D9194C207A5844006A4DC5 /* UIImage+JFUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JFUtil.h"; sourceTree = "<group>"; };
+		78D9194D207A5844006A4DC5 /* JF_Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JF_Helper.m; sourceTree = "<group>"; };
+		78D9194E207A5844006A4DC5 /* ALAsset+JFUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAsset+JFUtil.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +261,8 @@
 			children = (
 				78D91904207A5424006A4DC5 /* Cloud_HomeDylib.h */,
 				78D91906207A5424006A4DC5 /* Cloud_HomeDylib.m */,
+				78D91910207A5843006A4DC5 /* Header.h */,
+				78D91911207A5844006A4DC5 /* HookCenter */,
 				78D918E8207A5424006A4DC5 /* Logos */,
 				78D918EC207A5424006A4DC5 /* Tools */,
 				78D918F1207A5424006A4DC5 /* MethodTrace */,
@@ -233,6 +327,170 @@
 			name = fishhook;
 			sourceTree = "<group>";
 		};
+		78D91911207A5844006A4DC5 /* HookCenter */ = {
+			isa = PBXGroup;
+			children = (
+				78D91912207A5844006A4DC5 /* WIFI */,
+				78D9191D207A5844006A4DC5 /* GPS */,
+				78D91921207A5844006A4DC5 /* Camera */,
+				78D91927207A5844006A4DC5 /* View */,
+				78D9192E207A5844006A4DC5 /* JF_Helper */,
+			);
+			path = HookCenter;
+			sourceTree = "<group>";
+		};
+		78D91912207A5844006A4DC5 /* WIFI */ = {
+			isa = PBXGroup;
+			children = (
+				78D91913207A5844006A4DC5 /* DTWIFIHook.h */,
+				78D91914207A5844006A4DC5 /* WIFISettingViewController */,
+				78D91917207A5844006A4DC5 /* Model */,
+				78D9191C207A5844006A4DC5 /* DTWIFIHook.m */,
+			);
+			path = WIFI;
+			sourceTree = "<group>";
+		};
+		78D91914207A5844006A4DC5 /* WIFISettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				78D91915207A5844006A4DC5 /* DTWifiSettingViewController.m */,
+				78D91916207A5844006A4DC5 /* DTWifiSettingViewController.h */,
+			);
+			path = WIFISettingViewController;
+			sourceTree = "<group>";
+		};
+		78D91917207A5844006A4DC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				78D91918207A5844006A4DC5 /* DTWifiSettingSession.h */,
+				78D91919207A5844006A4DC5 /* DTWifiModel.m */,
+				78D9191A207A5844006A4DC5 /* DTWifiSettingSession.m */,
+				78D9191B207A5844006A4DC5 /* DTWifiModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		78D9191D207A5844006A4DC5 /* GPS */ = {
+			isa = PBXGroup;
+			children = (
+				78D9191E207A5844006A4DC5 /* GPSSettingViewController */,
+			);
+			path = GPS;
+			sourceTree = "<group>";
+		};
+		78D9191E207A5844006A4DC5 /* GPSSettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				78D9191F207A5844006A4DC5 /* DTGPSSettingViewController.m */,
+				78D91920207A5844006A4DC5 /* DTGPSSettingViewController.h */,
+			);
+			path = GPSSettingViewController;
+			sourceTree = "<group>";
+		};
+		78D91921207A5844006A4DC5 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				78D91922207A5844006A4DC5 /* DTCameraHook.m */,
+				78D91923207A5844006A4DC5 /* CameraSettingViewController */,
+				78D91926207A5844006A4DC5 /* DTCameraHook.h */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		78D91923207A5844006A4DC5 /* CameraSettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				78D91924207A5844006A4DC5 /* DTCameraSettingViewController.m */,
+				78D91925207A5844006A4DC5 /* DTCameraSettingViewController.h */,
+			);
+			path = CameraSettingViewController;
+			sourceTree = "<group>";
+		};
+		78D91927207A5844006A4DC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78D91928207A5844006A4DC5 /* DTGPSButton */,
+				78D9192B207A5844006A4DC5 /* DTWifiHeaderView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78D91928207A5844006A4DC5 /* DTGPSButton */ = {
+			isa = PBXGroup;
+			children = (
+				78D91929207A5844006A4DC5 /* DTGPSButton.m */,
+				78D9192A207A5844006A4DC5 /* DTGPSButton.h */,
+			);
+			path = DTGPSButton;
+			sourceTree = "<group>";
+		};
+		78D9192B207A5844006A4DC5 /* DTWifiHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				78D9192C207A5844006A4DC5 /* DTWifiHeaderView.h */,
+				78D9192D207A5844006A4DC5 /* DTWifiHeaderView.m */,
+			);
+			path = DTWifiHeaderView;
+			sourceTree = "<group>";
+		};
+		78D9192E207A5844006A4DC5 /* JF_Helper */ = {
+			isa = PBXGroup;
+			children = (
+				78D9192F207A5844006A4DC5 /* UIImage+JFUtil.m */,
+				78D91930207A5844006A4DC5 /* JF_Helper.h */,
+				78D91931207A5844006A4DC5 /* ALAsset+JFUtil.h */,
+				78D91932207A5844006A4DC5 /* QBImagePickerController */,
+				78D9194C207A5844006A4DC5 /* UIImage+JFUtil.h */,
+				78D9194D207A5844006A4DC5 /* JF_Helper.m */,
+				78D9194E207A5844006A4DC5 /* ALAsset+JFUtil.m */,
+			);
+			path = JF_Helper;
+			sourceTree = "<group>";
+		};
+		78D91932207A5844006A4DC5 /* QBImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				78D91933207A5844006A4DC5 /* Classes */,
+				78D91948207A5844006A4DC5 /* Assets */,
+			);
+			path = QBImagePickerController;
+			sourceTree = "<group>";
+		};
+		78D91933207A5844006A4DC5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				78D91934207A5844006A4DC5 /* QBImagePickerController.h */,
+				78D91935207A5844006A4DC5 /* QBImagePickerGroupCell.m */,
+				78D91936207A5844006A4DC5 /* QBImagePickerThumbnailView.h */,
+				78D91937207A5844006A4DC5 /* QBAssetsCollectionCheckmarkView.h */,
+				78D91938207A5844006A4DC5 /* QBAssetsCollectionViewCell.m */,
+				78D91939207A5844006A4DC5 /* QBAssetsCollectionOverlayView.h */,
+				78D9193A207A5844006A4DC5 /* QBAssetsCollectionFooterView.m */,
+				78D9193B207A5844006A4DC5 /* QBAssetsCollectionViewLayout.h */,
+				78D9193C207A5844006A4DC5 /* QBAssetsCollectionViewController.m */,
+				78D9193D207A5844006A4DC5 /* QBAssetsCollectionVideoIndicatorView.m */,
+				78D9193E207A5844006A4DC5 /* QBImagePickerGroupCell.h */,
+				78D9193F207A5844006A4DC5 /* QBImagePickerController.m */,
+				78D91940207A5844006A4DC5 /* QBAssetsCollectionViewCell.h */,
+				78D91941207A5844006A4DC5 /* QBAssetsCollectionCheckmarkView.m */,
+				78D91942207A5844006A4DC5 /* QBImagePickerThumbnailView.m */,
+				78D91943207A5844006A4DC5 /* QBAssetsCollectionFooterView.h */,
+				78D91944207A5844006A4DC5 /* QBAssetsCollectionOverlayView.m */,
+				78D91945207A5844006A4DC5 /* QBAssetsCollectionVideoIndicatorView.h */,
+				78D91946207A5844006A4DC5 /* QBAssetsCollectionViewLayout.m */,
+				78D91947207A5844006A4DC5 /* QBAssetsCollectionViewController.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		78D91948207A5844006A4DC5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				78D91949207A5844006A4DC5 /* QBImagePickerController.strings */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -240,11 +498,34 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78D91979207A5845006A4DC5 /* UIImage+JFUtil.h in Headers */,
+				78D91967207A5844006A4DC5 /* QBImagePickerThumbnailView.h in Headers */,
+				78D9196F207A5844006A4DC5 /* QBImagePickerGroupCell.h in Headers */,
+				78D91963207A5844006A4DC5 /* JF_Helper.h in Headers */,
 				78D91905207A5424006A4DC5 /* Cloud_HomeDylib.h in Headers */,
+				78D9196A207A5844006A4DC5 /* QBAssetsCollectionOverlayView.h in Headers */,
+				78D9195F207A5844006A4DC5 /* DTGPSButton.h in Headers */,
+				78D9195D207A5844006A4DC5 /* DTCameraHook.h in Headers */,
+				78D91971207A5844006A4DC5 /* QBAssetsCollectionViewCell.h in Headers */,
+				78D91978207A5845006A4DC5 /* QBAssetsCollectionViewController.h in Headers */,
+				78D91950207A5844006A4DC5 /* DTWIFIHook.h in Headers */,
+				78D91965207A5844006A4DC5 /* QBImagePickerController.h in Headers */,
+				78D91968207A5844006A4DC5 /* QBAssetsCollectionCheckmarkView.h in Headers */,
+				78D91953207A5844006A4DC5 /* DTWifiSettingSession.h in Headers */,
+				78D9195C207A5844006A4DC5 /* DTCameraSettingViewController.h in Headers */,
+				78D91959207A5844006A4DC5 /* DTGPSSettingViewController.h in Headers */,
 				78D918EE207A5424006A4DC5 /* LLDBTools.h in Headers */,
+				78D91976207A5845006A4DC5 /* QBAssetsCollectionVideoIndicatorView.h in Headers */,
 				78D918F7207A5424006A4DC5 /* MethodTrace.h in Headers */,
+				78D9194F207A5844006A4DC5 /* Header.h in Headers */,
+				78D91960207A5844006A4DC5 /* DTWifiHeaderView.h in Headers */,
 				78D918F3207A5424006A4DC5 /* ANYMethodLog.h in Headers */,
 				78D91903207A5424006A4DC5 /* fishhook.h in Headers */,
+				78D91952207A5844006A4DC5 /* DTWifiSettingViewController.h in Headers */,
+				78D91956207A5844006A4DC5 /* DTWifiModel.h in Headers */,
+				78D91974207A5845006A4DC5 /* QBAssetsCollectionFooterView.h in Headers */,
+				78D91964207A5844006A4DC5 /* ALAsset+JFUtil.h in Headers */,
+				78D9196C207A5844006A4DC5 /* QBAssetsCollectionViewLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +594,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ja,
 			);
 			mainGroup = 78D918BE207A5424006A4DC5;
 			productRefGroup = 78D918CB207A5424006A4DC5 /* Products */;
@@ -390,13 +672,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78D9195B207A5844006A4DC5 /* DTCameraSettingViewController.m in Sources */,
+				78D9195A207A5844006A4DC5 /* DTCameraHook.m in Sources */,
 				78D91907207A5424006A4DC5 /* Cloud_HomeDylib.m in Sources */,
 				78D918F9207A5424006A4DC5 /* MethodTrace.m in Sources */,
+				78D91958207A5844006A4DC5 /* DTGPSSettingViewController.m in Sources */,
+				78D9197A207A5845006A4DC5 /* JF_Helper.m in Sources */,
+				78D91955207A5844006A4DC5 /* DTWifiSettingSession.m in Sources */,
+				78D91972207A5844006A4DC5 /* QBAssetsCollectionCheckmarkView.m in Sources */,
+				78D9196D207A5844006A4DC5 /* QBAssetsCollectionViewController.m in Sources */,
+				78D91966207A5844006A4DC5 /* QBImagePickerGroupCell.m in Sources */,
+				78D91977207A5845006A4DC5 /* QBAssetsCollectionViewLayout.m in Sources */,
 				78D918FE207A5424006A4DC5 /* AntiAntiDebug.m in Sources */,
+				78D91970207A5844006A4DC5 /* QBImagePickerController.m in Sources */,
+				78D91957207A5844006A4DC5 /* DTWIFIHook.m in Sources */,
+				78D91961207A5844006A4DC5 /* DTWifiHeaderView.m in Sources */,
+				78D91973207A5844006A4DC5 /* QBImagePickerThumbnailView.m in Sources */,
 				78D918EB207A5424006A4DC5 /* Cloud_HomeDylib.mm in Sources */,
+				78D91975207A5845006A4DC5 /* QBAssetsCollectionOverlayView.m in Sources */,
+				78D91951207A5844006A4DC5 /* DTWifiSettingViewController.m in Sources */,
+				78D91954207A5844006A4DC5 /* DTWifiModel.m in Sources */,
 				78D918F5207A5424006A4DC5 /* ANYMethodLog.m in Sources */,
+				78D91969207A5844006A4DC5 /* QBAssetsCollectionViewCell.m in Sources */,
+				78D9197B207A5845006A4DC5 /* ALAsset+JFUtil.m in Sources */,
 				78D91901207A5424006A4DC5 /* fishhook.c in Sources */,
 				78D918F0207A5424006A4DC5 /* LLDBTools.mm in Sources */,
+				78D9196E207A5844006A4DC5 /* QBAssetsCollectionVideoIndicatorView.m in Sources */,
+				78D9196B207A5844006A4DC5 /* QBAssetsCollectionFooterView.m in Sources */,
+				78D91962207A5844006A4DC5 /* UIImage+JFUtil.m in Sources */,
+				78D9195E207A5844006A4DC5 /* DTGPSButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +713,18 @@
 			targetProxy = 78D918DE207A5424006A4DC5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78D91949207A5844006A4DC5 /* QBImagePickerController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D9194A207A5844006A4DC5 /* ja */,
+				78D9194B207A5844006A4DC5 /* en */,
+			);
+			name = QBImagePickerController.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		78D91908207A5424006A4DC5 /* Debug */ = {
@@ -648,13 +964,13 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Cloud_Home/Info.plist;
 				MONKEYDEV_ADD_SUBSTRATE = YES;
-				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_CLASS_DUMP = YES;
 				MONKEYDEV_INSERT_DYLIB = YES;
-				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_RESTORE_SYMBOL = YES;
 				MONKEYDEV_TARGET_APP = Optional;
 				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_ROOT = "${SRCROOT}/Pods";
-				PRODUCT_BUNDLE_IDENTIFIER = "wd.Cloud-Home";
+				PRODUCT_BUNDLE_IDENTIFIER = wdproject.CloudHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -668,13 +984,13 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Cloud_Home/Info.plist;
 				MONKEYDEV_ADD_SUBSTRATE = YES;
-				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_CLASS_DUMP = YES;
 				MONKEYDEV_INSERT_DYLIB = YES;
-				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_RESTORE_SYMBOL = YES;
 				MONKEYDEV_TARGET_APP = Optional;
 				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_ROOT = "${SRCROOT}/Pods";
-				PRODUCT_BUNDLE_IDENTIFIER = "wd.Cloud-Home";
+				PRODUCT_BUNDLE_IDENTIFIER = wdproject.CloudHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
